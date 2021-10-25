@@ -19,6 +19,12 @@ class ViewController: UIViewController {
         
     }
 
-
+    
+    @IBOutlet weak var LoginButtonRef: UIButton!
+    @IBAction func LoginButton(_ sender: Any) {
+        
+        print("Button Clicked")
+    }
+    
 }
 
